@@ -1,0 +1,576 @@
+{
+  "CL10": {
+    "summary": {
+      "total_sheets": 9,
+      "total_pieces": 35,
+      "overall_efficiency": 80.71,
+      "total_area": 84240000,
+      "used_area": 67994088.0
+    },
+    "sheets": [
+      {
+        "dimensions": {
+          "width": 3600,
+          "height": 2600,
+          "thickness": 10
+        },
+        "pieces": [
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 1167.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 2334.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          }
+        ],
+        "efficiency": 81.54,
+        "total_area": 9360000,
+        "used_area": 7632180.0
+      },
+      {
+        "dimensions": {
+          "width": 3600,
+          "height": 2600,
+          "thickness": 10
+        },
+        "pieces": [
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 1167.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 2334.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          }
+        ],
+        "efficiency": 81.54,
+        "total_area": 9360000,
+        "used_area": 7632180.0
+      },
+      {
+        "dimensions": {
+          "width": 3600,
+          "height": 2600,
+          "thickness": 10
+        },
+        "pieces": [
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 1167.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 2334.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          }
+        ],
+        "efficiency": 81.54,
+        "total_area": 9360000,
+        "used_area": 7632180.0
+      },
+      {
+        "dimensions": {
+          "width": 3600,
+          "height": 2600,
+          "thickness": 10
+        },
+        "pieces": [
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 1167.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 2334.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          }
+        ],
+        "efficiency": 81.54,
+        "total_area": 9360000,
+        "used_area": 7632180.0
+      },
+      {
+        "dimensions": {
+          "width": 3600,
+          "height": 2600,
+          "thickness": 10
+        },
+        "pieces": [
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 1167.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 2334.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          }
+        ],
+        "efficiency": 81.54,
+        "total_area": 9360000,
+        "used_area": 7632180.0
+      },
+      {
+        "dimensions": {
+          "width": 3600,
+          "height": 2600,
+          "thickness": 10
+        },
+        "pieces": [
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1167.0,
+            "height": 2180.0,
+            "position": {
+              "x": 1167.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1167.0,
+              "height": 2180.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 2334.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 2334.0,
+              "y": 1167.0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          }
+        ],
+        "efficiency": 83.73,
+        "total_area": 9360000,
+        "used_area": 7837572.0
+      },
+      {
+        "dimensions": {
+          "width": 3600,
+          "height": 2600,
+          "thickness": 10
+        },
+        "pieces": [
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 0,
+              "y": 1167.0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 1178.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 1178.0,
+              "y": 1167.0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 2356.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 2356.0,
+              "y": 1167.0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          }
+        ],
+        "efficiency": 88.12,
+        "total_area": 9360000,
+        "used_area": 8248356.0
+      },
+      {
+        "dimensions": {
+          "width": 3600,
+          "height": 2600,
+          "thickness": 10
+        },
+        "pieces": [
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 0,
+              "y": 1167.0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 1178.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 1178.0,
+              "y": 1167.0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 2356.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 2356.0,
+              "y": 1167.0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          }
+        ],
+        "efficiency": 88.12,
+        "total_area": 9360000,
+        "used_area": 8248356.0
+      },
+      {
+        "dimensions": {
+          "width": 3600,
+          "height": 2600,
+          "thickness": 10
+        },
+        "pieces": [
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 0,
+              "y": 1167.0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 1178.0,
+              "y": 0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          },
+          {
+            "width": 1178.0,
+            "height": 1167.0,
+            "position": {
+              "x": 1178.0,
+              "y": 1167.0
+            },
+            "rotated": false,
+            "dimensions_after_rotation": {
+              "width": 1178.0,
+              "height": 1167.0
+            }
+          }
+        ],
+        "efficiency": 58.75,
+        "total_area": 9360000,
+        "used_area": 5498904.0
+      }
+    ]
+  }
+}

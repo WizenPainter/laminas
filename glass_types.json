@@ -1,0 +1,21 @@
+{
+    "CL10": {
+        "data": [
+            {
+                "Esp": 10,
+                "Measures": "1167x2180",
+                "Pzs.": 17
+            },
+            {
+                "Esp": 10,
+                "Measures": "1178x1167",
+                "Pzs.": 18
+            }
+        ],
+        "summary": {
+            "total_pieces": 35,
+            "unique_sizes": 2,
+            "thickness": 10
+        }
+    }
+}
