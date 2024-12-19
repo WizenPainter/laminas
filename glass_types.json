@@ -1,21 +1,26 @@
 {
-    "CL10": {
+    "CL6": {
         "data": [
             {
-                "Esp": 10,
-                "Measures": "1167x2180",
-                "Pzs.": 17
+                "Esp": 6,
+                "Measures": "1348.0x1548.0",
+                "Pzs.": 5
             },
             {
-                "Esp": 10,
-                "Measures": "1178x1167",
-                "Pzs.": 18
+                "Esp": 6,
+                "Measures": "750.0x2240.0",
+                "Pzs.": 10
+            },
+            {
+                "Esp": 6,
+                "Measures": "765.0x2250.0",
+                "Pzs.": 10
             }
         ],
         "summary": {
-            "total_pieces": 35,
-            "unique_sizes": 2,
-            "thickness": 10
+            "total_pieces": 25,
+            "unique_sizes": 3,
+            "thickness": 6
         }
     }
 }
