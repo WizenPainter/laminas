@@ -3,6 +3,9 @@ import dataclasses
 import pandas as pd
 from typing import List, Dict, Tuple, Optional
 
+from pydantic import BaseModel
+from fastapi import FastAPI, HTTPException
+
 from utils import process_dataframe
 from produccion import reduce_to_same_glass, get_produccion
 
@@ -145,6 +148,94 @@ class GlassCuttingOptimizer:
                         i += 1
         
         return sheets
+    
+class GlassPiece(BaseModel):
+    ITEM: str
+    Esp: int
+    Largo: float
+    Ancho: float
+    Pzs: int
+
+class OptimizationRequest(BaseModel):
+    pieces: List[GlassPiece]
+
+class PiecePosition(BaseModel):
+    width: float
+    height: float
+    position: dict
+    rotated: bool
+    dimensions_after_rotation: dict
+
+class SheetDetails(BaseModel):
+    dimensions: dict
+    efficiency: float
+    total_area: float
+    used_area: float
+    pieces: List[PiecePosition]
+
+class GlassTypeResult(BaseModel):
+    summary: dict
+    sheets: List[SheetDetails]
+
+class OptimizationResponse(BaseModel):
+    results: Dict[str, GlassTypeResult]
+
+app = FastAPI(
+    title="Glass Cutting Optimization API",
+    description="API for optimizing glass cutting patterns",
+    version="1.0.0"
+)
+
+@app.post("/optimize", response_model=OptimizationResponse)
+async def optimize_glass_cutting(request: OptimizationRequest):
+    try:
+        # Convert request data to DataFrame
+        df_data = {
+            'ITEM': [],
+            'Esp': [],
+            'Largo': [],
+            'Ancho': [],
+            'Pzs.': []
+        }
+        
+        for piece in request.pieces:
+            df_data['ITEM'].append(piece.ITEM)
+            df_data['Esp'].append(piece.Esp)
+            df_data['Largo'].append(piece.Largo)
+            df_data['Ancho'].append(piece.Ancho)
+            df_data['Pzs.'].append(piece.Pzs)
+        
+        df = pd.DataFrame(df_data)
+        
+        # Initialize optimizer
+        inventory = GlassInventory()
+        optimizer = GlassCuttingOptimizer(inventory)
+        
+        # Convert DataFrame to required format
+        data = reduce_to_same_glass(df, return_json=True, use_existing=True)
+        transformed_data = transform_glass_data(data)
+        
+        # Run optimization
+        results = optimize_all_glass(transformed_data, optimizer, output_json=True)
+        
+        return {"results": results}
+    
+    except Exception as e:
+        raise HTTPException(status_code=400, detail=str(e))
+
+
+@app.get("/stock-sizes")
+async def get_stock_sizes():
+    """Get available stock sheet sizes"""
+    inventory = GlassInventory()
+    return {
+        code: {
+            "thickness_mm": sheet.thickness_mm,
+            "width_mm": sheet.width_mm,
+            "height_mm": sheet.height_mm
+        }
+        for code, sheet in inventory.stock_sizes.items()
+    }
 
 def print_optimization_result(sheets: List[Sheet], glass_code: str):
     print(f"\nOptimization result for {glass_code}:")
@@ -434,4 +525,6 @@ def main():
 
 
 if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8766)
     main()
