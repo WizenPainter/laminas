@@ -1,0 +1,23 @@
+# glass-cutting-api.yml
+name: glass-cutting-api
+image: glass-cutting-api
+build:
+  context: .
+  dockerfile: Dockerfile
+
+ports:
+  - "8766:8766"
+
+environment:
+  - PORT=8766
+
+healthcheck:
+  test: ["CMD", "curl", "-f", "http://localhost:8766/docs"]
+  interval: 30s
+  timeout: 10s
+  retries: 3
+
+restart: unless-stopped
+
+volumes:
+  - ./logs:/app/logs

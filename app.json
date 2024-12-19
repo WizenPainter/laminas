@@ -1,0 +1,12 @@
+{
+  "name": "glass-cutting-api",
+  "description": "Glass Cutting Optimization API",
+  "keywords": ["python", "fastapi"],
+  "repository": "",
+  "success_url": "/docs",
+  "scripts": {
+    "dokku": {
+      "predeploy": "python -m pip install -r requirements.txt"
+    }
+  }
+}
